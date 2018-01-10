@@ -1,0 +1,32 @@
+{
+  "name": "autoimportplugin",
+  "version": "1.0.0",
+  "description": "根据目录结构自动引入自定义模块的webpackc插件",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbb3210/AutoImportPlugin.git"
+  },
+  "author": "nbb3210",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nbb3210/AutoImportPlugin/issues"
+  },
+  "homepage": "https://github.com/nbb3210/AutoImportPlugin#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.92",
+    "@types/node": "^9.3.0",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
