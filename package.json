@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/nbb3210/AutoImportPlugin#readme",
   "dependencies": {
+    "babel-eslint": "^8.2.1",
     "glob": "^7.1.2",
     "lodash": "^4.17.4"
   },
