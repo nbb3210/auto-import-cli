@@ -28,7 +28,7 @@ class AutoImport {
             .forEach(file => {
                 this.addModule(file)
             })
-        this.doImport(`Import ${this.modules.length} modules by AutoImport...`)
+        this.doImport(`Import ${this.modules.length} modules by auto-import-cli...`)
         this.watch()
     }
 
@@ -40,12 +40,12 @@ class AutoImport {
             .on('add', file => {
                 if (!this.checkModule(file)) {
                     this.addModule(file)
-                    this.doImport(`Add new module [${this.getModuleName(file)}] by AutoImport...`)
+                    this.doImport(`Add new module [${this.getModuleName(file)}] by auto-import-cli...`)
                 }
             })
             .on('unlink', file => {
                 this.unlinkModule(file)
-                this.doImport(`Remove module [${this.getModuleName(file)}] by AutoImport...`)
+                this.doImport(`Remove module [${this.getModuleName(file)}] by auto-import-cli...`)
             })
     }
 

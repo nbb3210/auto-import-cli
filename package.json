@@ -1,7 +1,7 @@
 {
   "name": "auto-import-cli",
   "version": "1.0.0",
-  "description": "根据目录结构自动引入自定义模块的webpackc插件",
+  "description": "import modules automagically based on your configuration",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

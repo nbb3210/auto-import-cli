@@ -1,9 +1,0 @@
-{
-    "parser": "babel-eslint",
-    "extends": "standard",
-    "rules": {
-        "semi": [2, "never"],
-        "quotes": [2, "single"],
-        "indent": [2, 4]
-    }
-}
