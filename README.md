@@ -13,7 +13,7 @@ You should then setup a configuration file: `auto-import-cli.json`
 
 After that, you can run **auto-import-cli** on your project like this:
 ```
-$ auto-import
+$ autoimport
 ```
 
 ## Configuration
