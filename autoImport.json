@@ -1,8 +1,12 @@
-{
-    "extname": ".vue",
-    "from": "src/pages",
-    "to": "src/router/index.js",
-    "template": "const moduleName = () => import(modulePath)",
-    "exclude": [
-    ]
-}
+[
+    {
+        "extname": ".vue",
+        "from": "example/pages",
+        "to": "example/router/index.js",
+        "template": "const moduleName = () => import(modulePath)",
+        "ignored": [
+            "example/pages/login.vue",
+            "example/pages/overall/**"
+        ]
+    }
+]

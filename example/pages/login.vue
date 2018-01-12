@@ -1,6 +1,6 @@
 <template>
     <div>
-        About
+        Login
     </div>
 </template>
 
@@ -12,5 +12,5 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>

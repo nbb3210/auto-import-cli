@@ -16,13 +16,15 @@
   },
   "homepage": "https://github.com/nbb3210/AutoImportPlugin#readme",
   "dependencies": {
-    "babel-eslint": "^8.2.1",
+    "chokidar": "^2.0.0",
     "glob": "^7.1.2",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "@types/chokidar": "^1.7.4",
     "@types/lodash": "^4.14.92",
     "@types/node": "^9.3.0",
+    "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^11.0.0-beta.0",
     "eslint-plugin-import": "^2.8.0",
