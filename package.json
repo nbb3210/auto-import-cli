@@ -2,6 +2,10 @@
   "name": "auto-import-cli",
   "version": "1.0.4",
   "description": "import modules automagically based on your configuration",
+  "main": "index.js",
+  "bin": {
+    "autoImport": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +23,5 @@
     "chokidar": "^2.0.0",
     "glob": "^7.1.2",
     "lodash": "^4.17.4"
-  },
-  "bin": {
-    "autoImport": "./bin/auto-import.js"
   }
 }
