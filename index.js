@@ -5,7 +5,7 @@ const _ = require('lodash')
 const chokidar = require('chokidar')
 const glob = require('glob')
 const config = JSON.parse(
-    fs.readFileSync('./autoImport.json')
+    fs.readFileSync('./auto-import-cli.json')
 )
 const regex = /\/\*\sautoImport(.*\n)*\/\*\sautoImport\s\*\//g
 
